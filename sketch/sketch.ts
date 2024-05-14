@@ -17,6 +17,8 @@ let bg: any, doodlerRight: any, doodlerShort: any, platform: any, qrCode: any; /
 // P5 WILL AUTOMATICALLY USE GLOBAL MODE IF A DRAW() FUNCTION IS DEFINED
 function setup() {
     console.log("🚀 - Setup initialized - P5 is running");
+    
+    pixelDensity(1)
 
     bg = loadImage("sketch/resources/bg.png");
     doodlerRight = loadImage("sketch/resources/doodler-right.png");

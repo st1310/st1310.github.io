@@ -12,6 +12,7 @@ var platforms;
 var bg, doodlerRight, doodlerShort, platform, qrCode;
 function setup() {
     console.log("🚀 - Setup initialized - P5 is running");
+    pixelDensity(1);
     bg = loadImage("sketch/resources/bg.png");
     doodlerRight = loadImage("sketch/resources/doodler-right.png");
     doodlerShort = loadImage("sketch/resources/doodler-short.png");
